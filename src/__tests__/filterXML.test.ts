@@ -10,16 +10,16 @@ describe('filterXML', () => {
             return false
         });
 
-        expect(filtered.elements[0].elements).toHaveLength(0)
+        expect(filtered.elements![0].elements).toHaveLength(0)
         expect(filtered).toMatchSnapshot()
     });
 
     it('should filter results based upon callback', () => {
         const filtered = filterXML(`${__dirname}/home.xml`, (slot: Slot) => {
-            return slot.attributes['slot-id'] === 'slot-15'
+            return slot.attributes!['slot-id'] === 'slot-15'
         });
 
-        expect(filtered.elements[0].elements.length).toBe(15)
+        expect(filtered.elements![0].elements!.length).toBe(15)
         expect(filtered).toMatchSnapshot()
     })
 });
@@ -53,7 +53,7 @@ describe('integration of filterXML with recursiveSearch',  () => {
     it ('should return correct slots', async () => {
         const filtered = filterXML(`${__dirname}/home.xml`, (slot) => recursiveSearch(slot, 'slot-id', 'slot-15'))
 
-        expect(filtered.elements[0].elements).toHaveLength(15)
+        expect(filtered.elements![0].elements).toHaveLength(15)
         expect(filtered).toMatchSnapshot()
     })
 });
