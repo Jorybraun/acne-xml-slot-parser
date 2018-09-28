@@ -9,13 +9,13 @@ export const filterXML = (path: string, cb: (arg: Slot) => Boolean): Slot => {
     const clone = Object.assign({}, json);
     const filteredSlots = [];
 
-    for (const slot of json.elements[0].elements) {
+    for (const slot of json.elements![0].elements!) {
         if (cb(slot)) {
             // delete the slot
             filteredSlots.push(slot);
         }
     }
 
-    clone.elements[0].elements = filteredSlots;
+    clone.elements![0].elements = filteredSlots;
     return clone;
 };

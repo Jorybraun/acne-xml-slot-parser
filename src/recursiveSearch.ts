@@ -1,5 +1,5 @@
 
-export const recursiveSearch = (obj: {}, key: string, value: any): boolean => {
+export const recursiveSearch = (obj: { [key: string]: any }, key: string, value: any): boolean => {
     let found = false;
     if (obj[key] === value) { return true }
 
