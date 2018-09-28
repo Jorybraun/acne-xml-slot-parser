@@ -1,0 +1,3664 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`convertToXML should be xml 1`] = `
+"<?xml version=\\"1.0\\" encoding=\\"UTF-8\\"?>
+<slot-configurations xmlns=\\"http://www.demandware.com/xml/impex/slot/2008-09-08\\">
+    <slot-configuration slot-id=\\"slot-15\\" context=\\"category\\" context-id=\\"bla-konst-man-projects\\" configuration-id=\\"BK m - projects - ss17\\" assigned-to-site=\\"true\\">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2017-08-31T07:00:00.000Z</start-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id=\\"bk-projects--ss17\\"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id=\\"heading-sticky\\">false</custom-attribute>
+            <custom-attribute attribute-id=\\"isExcludeTranslate\\">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id=\\"slot-15\\" context=\\"category\\" context-id=\\"bla-konst-woman-projects\\" configuration-id=\\"BK w - projects - ss17\\" assigned-to-site=\\"true\\">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2017-08-31T07:00:00.000Z</start-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id=\\"bk-projects--ss17\\"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id=\\"heading-sticky\\">false</custom-attribute>
+            <custom-attribute attribute-id=\\"isExcludeTranslate\\">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id=\\"slot-15\\" context=\\"category\\" context-id=\\"man-eyewear\\" configuration-id=\\"Eyewear M - section 8 - w2\\" assigned-to-site=\\"true\\">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-01-24T08:00:00.000Z</start-date>
+            <end-date>2018-03-22T08:00:00.000Z</end-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id=\\"eyewear-w2-lou-m\\"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id=\\"heading-sticky\\">false</custom-attribute>
+            <custom-attribute attribute-id=\\"isExcludeTranslate\\">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id=\\"slot-15\\" context=\\"category\\" context-id=\\"woman-eyewear\\" configuration-id=\\"Eyewear W - section 8 - w2\\" assigned-to-site=\\"true\\">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-01-24T08:00:00.000Z</start-date>
+            <end-date>2018-03-22T08:00:00.000Z</end-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id=\\"eyewear-w2-lou-w\\"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id=\\"heading-sticky\\">false</custom-attribute>
+            <custom-attribute attribute-id=\\"isExcludeTranslate\\">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id=\\"slot-15\\" context=\\"category\\" context-id=\\"bla-konst\\" configuration-id=\\"Featured - BK - gum\\" assigned-to-site=\\"true\\">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-03-15T08:00:00.000Z</start-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id=\\"bk-chewing-gums\\"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id=\\"heading-sticky\\">false</custom-attribute>
+            <custom-attribute attribute-id=\\"isExcludeTranslate\\">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id=\\"slot-15\\" context=\\"category\\" context-id=\\"man-small-leather-goods\\" configuration-id=\\"SLG M - section 8 - personalisation\\" assigned-to-site=\\"true\\">
+        <template>slots/content/god-widget.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-08-30T08:00:00.000Z</start-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id=\\"slg-personalisation-1\\"/>
+                <content-asset content-id=\\"slg-personalisation-2\\"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id=\\"heading-sticky\\">false</custom-attribute>
+            <custom-attribute attribute-id=\\"isExcludeTranslate\\">false</custom-attribute>
+            <custom-attribute attribute-id=\\"link-url\\">$url('Search-Show', 'cgid', 'woman-personalisation-slg')$</custom-attribute>
+            <custom-attribute attribute-id=\\"widget-height\\">75vw</custom-attribute>
+            <custom-attribute attribute-id=\\"widget-style\\">3</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id=\\"slot-15\\" context=\\"category\\" context-id=\\"woman-small-leather-goods\\" configuration-id=\\"SLG W - section 8 - personalisation\\" assigned-to-site=\\"true\\">
+        <template>slots/content/god-widget.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-08-30T08:00:00.000Z</start-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id=\\"slg-personalisation-1\\"/>
+                <content-asset content-id=\\"slg-personalisation-2\\"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id=\\"heading-sticky\\">false</custom-attribute>
+            <custom-attribute attribute-id=\\"isExcludeTranslate\\">false</custom-attribute>
+            <custom-attribute attribute-id=\\"link-url\\">$url('Search-Show', 'cgid', 'woman-personalisation-slg')$</custom-attribute>
+            <custom-attribute attribute-id=\\"widget-height\\">75vw</custom-attribute>
+            <custom-attribute attribute-id=\\"widget-style\\">3</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id=\\"slot-15\\" context=\\"category\\" context-id=\\"bla-konst-man-ready-to-wear\\" configuration-id=\\"bla konst - SS18 - M - gums\\" assigned-to-site=\\"true\\">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-03-15T08:00:00.000Z</start-date>
+            <end-date>2018-03-22T08:00:00.000Z</end-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id=\\"bk-chewing-gums\\"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id=\\"heading-sticky\\">false</custom-attribute>
+            <custom-attribute attribute-id=\\"isExcludeTranslate\\">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id=\\"slot-15\\" context=\\"category\\" context-id=\\"bla-konst-woman-ready-to-wear\\" configuration-id=\\"bla konst - SS18 - W - gums\\" assigned-to-site=\\"true\\">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-03-15T08:00:00.000Z</start-date>
+            <end-date>2018-03-22T08:00:00.000Z</end-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id=\\"bk-chewing-gums\\"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id=\\"heading-sticky\\">false</custom-attribute>
+            <custom-attribute attribute-id=\\"isExcludeTranslate\\">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id=\\"slot-15\\" context=\\"category\\" context-id=\\"bla-konst-man-jeans\\" configuration-id=\\"jeans - M - slot 15 - b\\" assigned-to-site=\\"true\\">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-08-08T08:00:00.000Z</start-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id=\\"jeans-m-land-products\\"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id=\\"heading-sticky\\">false</custom-attribute>
+            <custom-attribute attribute-id=\\"isExcludeTranslate\\">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id=\\"slot-15\\" context=\\"category\\" context-id=\\"man-jeans\\" configuration-id=\\"jeans - M - slot 15 - b\\" assigned-to-site=\\"true\\">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-08-08T08:00:00.000Z</start-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id=\\"jeans-m-land-products\\"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id=\\"heading-sticky\\">false</custom-attribute>
+            <custom-attribute attribute-id=\\"isExcludeTranslate\\">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id=\\"slot-15\\" context=\\"category\\" context-id=\\"woman-jeans\\" configuration-id=\\"jeans - W - slot 15\\" assigned-to-site=\\"true\\">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-04-26T07:00:00.000Z</start-date>
+            <end-date>2018-08-01T08:00:00.000Z</end-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id=\\"jeans-w-south-products\\"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id=\\"heading-sticky\\">false</custom-attribute>
+            <custom-attribute attribute-id=\\"isExcludeTranslate\\">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id=\\"slot-15\\" context=\\"category\\" context-id=\\"bla-konst-woman-jeans\\" configuration-id=\\"jeans - W - slot 15\\" assigned-to-site=\\"true\\">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-04-26T07:00:00.000Z</start-date>
+            <end-date>2018-08-01T08:00:00.000Z</end-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id=\\"jeans-w-south-products\\"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id=\\"heading-sticky\\">false</custom-attribute>
+            <custom-attribute attribute-id=\\"isExcludeTranslate\\">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id=\\"slot-15\\" context=\\"category\\" context-id=\\"bla-konst-woman-jeans\\" configuration-id=\\"jeans - W - slot 15 - b\\" assigned-to-site=\\"true\\">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-08-08T08:00:00.000Z</start-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id=\\"jeans-w-log-products\\"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id=\\"heading-sticky\\">false</custom-attribute>
+            <custom-attribute attribute-id=\\"isExcludeTranslate\\">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id=\\"slot-15\\" context=\\"category\\" context-id=\\"woman-jeans\\" configuration-id=\\"jeans - W - slot 15 - b\\" assigned-to-site=\\"true\\">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-08-08T08:00:00.000Z</start-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id=\\"jeans-w-log-products\\"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id=\\"heading-sticky\\">false</custom-attribute>
+            <custom-attribute attribute-id=\\"isExcludeTranslate\\">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+</slot-configurations>"
+`;
+
+exports[`filterXML should filter results based upon callback 1`] = `
+Object {
+  "declaration": Object {
+    "attributes": Object {
+      "encoding": "UTF-8",
+      "version": "1.0",
+    },
+  },
+  "elements": Array [
+    Object {
+      "attributes": Object {
+        "xmlns": "http://www.demandware.com/xml/impex/slot/2008-09-08",
+      },
+      "elements": Array [
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "BK m - projects - ss17",
+            "context": "category",
+            "context-id": "bla-konst-man-projects",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2017-08-31T07:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "bk-projects--ss17",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "BK w - projects - ss17",
+            "context": "category",
+            "context-id": "bla-konst-woman-projects",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2017-08-31T07:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "bk-projects--ss17",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "Eyewear M - section 8 - w2",
+            "context": "category",
+            "context-id": "man-eyewear",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-01-24T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-03-22T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "end-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "eyewear-w2-lou-m",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "Eyewear W - section 8 - w2",
+            "context": "category",
+            "context-id": "woman-eyewear",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-01-24T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-03-22T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "end-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "eyewear-w2-lou-w",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "Featured - BK - gum",
+            "context": "category",
+            "context-id": "bla-konst",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-03-15T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "bk-chewing-gums",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "SLG M - section 8 - personalisation",
+            "context": "category",
+            "context-id": "man-small-leather-goods",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/god-widget.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-08-30T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "slg-personalisation-1",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                    Object {
+                      "attributes": Object {
+                        "content-id": "slg-personalisation-2",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "link-url",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "$url('Search-Show', 'cgid', 'woman-personalisation-slg')$",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "widget-height",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "75vw",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "widget-style",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "3",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "SLG W - section 8 - personalisation",
+            "context": "category",
+            "context-id": "woman-small-leather-goods",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/god-widget.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-08-30T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "slg-personalisation-1",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                    Object {
+                      "attributes": Object {
+                        "content-id": "slg-personalisation-2",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "link-url",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "$url('Search-Show', 'cgid', 'woman-personalisation-slg')$",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "widget-height",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "75vw",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "widget-style",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "3",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "bla konst - SS18 - M - gums",
+            "context": "category",
+            "context-id": "bla-konst-man-ready-to-wear",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-03-15T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-03-22T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "end-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "bk-chewing-gums",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "bla konst - SS18 - W - gums",
+            "context": "category",
+            "context-id": "bla-konst-woman-ready-to-wear",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-03-15T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-03-22T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "end-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "bk-chewing-gums",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "jeans - M - slot 15 - b",
+            "context": "category",
+            "context-id": "bla-konst-man-jeans",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-08-08T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "jeans-m-land-products",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "jeans - M - slot 15 - b",
+            "context": "category",
+            "context-id": "man-jeans",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-08-08T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "jeans-m-land-products",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "jeans - W - slot 15",
+            "context": "category",
+            "context-id": "woman-jeans",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-04-26T07:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-08-01T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "end-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "jeans-w-south-products",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "jeans - W - slot 15",
+            "context": "category",
+            "context-id": "bla-konst-woman-jeans",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-04-26T07:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-08-01T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "end-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "jeans-w-south-products",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "jeans - W - slot 15 - b",
+            "context": "category",
+            "context-id": "bla-konst-woman-jeans",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-08-08T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "jeans-w-log-products",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "jeans - W - slot 15 - b",
+            "context": "category",
+            "context-id": "woman-jeans",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-08-08T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "jeans-w-log-products",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+      ],
+      "name": "slot-configurations",
+      "type": "element",
+    },
+  ],
+}
+`;
+
+exports[`filterXML should return json 1`] = `
+Object {
+  "declaration": Object {
+    "attributes": Object {
+      "encoding": "UTF-8",
+      "version": "1.0",
+    },
+  },
+  "elements": Array [
+    Object {
+      "attributes": Object {
+        "xmlns": "http://www.demandware.com/xml/impex/slot/2008-09-08",
+      },
+      "elements": Array [],
+      "name": "slot-configurations",
+      "type": "element",
+    },
+  ],
+}
+`;
+
+exports[`integration of filterXML with recursiveSearch should return correct slots 1`] = `
+Object {
+  "declaration": Object {
+    "attributes": Object {
+      "encoding": "UTF-8",
+      "version": "1.0",
+    },
+  },
+  "elements": Array [
+    Object {
+      "attributes": Object {
+        "xmlns": "http://www.demandware.com/xml/impex/slot/2008-09-08",
+      },
+      "elements": Array [
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "BK m - projects - ss17",
+            "context": "category",
+            "context-id": "bla-konst-man-projects",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2017-08-31T07:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "bk-projects--ss17",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "BK w - projects - ss17",
+            "context": "category",
+            "context-id": "bla-konst-woman-projects",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2017-08-31T07:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "bk-projects--ss17",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "Eyewear M - section 8 - w2",
+            "context": "category",
+            "context-id": "man-eyewear",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-01-24T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-03-22T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "end-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "eyewear-w2-lou-m",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "Eyewear W - section 8 - w2",
+            "context": "category",
+            "context-id": "woman-eyewear",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-01-24T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-03-22T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "end-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "eyewear-w2-lou-w",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "Featured - BK - gum",
+            "context": "category",
+            "context-id": "bla-konst",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-03-15T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "bk-chewing-gums",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "SLG M - section 8 - personalisation",
+            "context": "category",
+            "context-id": "man-small-leather-goods",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/god-widget.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-08-30T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "slg-personalisation-1",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                    Object {
+                      "attributes": Object {
+                        "content-id": "slg-personalisation-2",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "link-url",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "$url('Search-Show', 'cgid', 'woman-personalisation-slg')$",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "widget-height",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "75vw",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "widget-style",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "3",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "SLG W - section 8 - personalisation",
+            "context": "category",
+            "context-id": "woman-small-leather-goods",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/god-widget.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-08-30T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "slg-personalisation-1",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                    Object {
+                      "attributes": Object {
+                        "content-id": "slg-personalisation-2",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "link-url",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "$url('Search-Show', 'cgid', 'woman-personalisation-slg')$",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "widget-height",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "75vw",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "widget-style",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "3",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "bla konst - SS18 - M - gums",
+            "context": "category",
+            "context-id": "bla-konst-man-ready-to-wear",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-03-15T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-03-22T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "end-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "bk-chewing-gums",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "bla konst - SS18 - W - gums",
+            "context": "category",
+            "context-id": "bla-konst-woman-ready-to-wear",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-03-15T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-03-22T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "end-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "bk-chewing-gums",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "jeans - M - slot 15 - b",
+            "context": "category",
+            "context-id": "bla-konst-man-jeans",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-08-08T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "jeans-m-land-products",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "jeans - M - slot 15 - b",
+            "context": "category",
+            "context-id": "man-jeans",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-08-08T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "jeans-m-land-products",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "jeans - W - slot 15",
+            "context": "category",
+            "context-id": "woman-jeans",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-04-26T07:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-08-01T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "end-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "jeans-w-south-products",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "jeans - W - slot 15",
+            "context": "category",
+            "context-id": "bla-konst-woman-jeans",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-04-26T07:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-08-01T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "end-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "jeans-w-south-products",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "jeans - W - slot 15 - b",
+            "context": "category",
+            "context-id": "bla-konst-woman-jeans",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-08-08T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "jeans-w-log-products",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+        Object {
+          "attributes": Object {
+            "assigned-to-site": "true",
+            "configuration-id": "jeans - W - slot 15 - b",
+            "context": "category",
+            "context-id": "woman-jeans",
+            "slot-id": "slot-15",
+          },
+          "elements": Array [
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "slots/content/contentassetbody.isml",
+                  "type": "text",
+                },
+              ],
+              "name": "template",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "text": "true",
+                  "type": "text",
+                },
+              ],
+              "name": "enabled-flag",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "text": "2018-08-08T08:00:00.000Z",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "start-date",
+                  "type": "element",
+                },
+              ],
+              "name": "schedule",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "elements": Array [
+                    Object {
+                      "attributes": Object {
+                        "content-id": "jeans-w-log-products",
+                      },
+                      "elements": Array [],
+                      "name": "content-asset",
+                      "type": "element",
+                    },
+                  ],
+                  "name": "content-assets",
+                  "type": "element",
+                },
+              ],
+              "name": "content",
+              "type": "element",
+            },
+            Object {
+              "elements": Array [
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "heading-sticky",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+                Object {
+                  "attributes": Object {
+                    "attribute-id": "isExcludeTranslate",
+                  },
+                  "elements": Array [
+                    Object {
+                      "text": "false",
+                      "type": "text",
+                    },
+                  ],
+                  "name": "custom-attribute",
+                  "type": "element",
+                },
+              ],
+              "name": "custom-attributes",
+              "type": "element",
+            },
+          ],
+          "name": "slot-configuration",
+          "type": "element",
+        },
+      ],
+      "name": "slot-configurations",
+      "type": "element",
+    },
+  ],
+}
+`;

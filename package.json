@@ -9,9 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "xml2js": "^0.4.19"
+    "xml-js": "^1.6.8"
   },
   "devDependencies": {
-    "jest": "^23.6.0"
+    "@types/jest": "^23.3.2",
+    "@types/node": "^10.11.0",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.2",
+    "typescript": "^3.0.3"
   }
 }
