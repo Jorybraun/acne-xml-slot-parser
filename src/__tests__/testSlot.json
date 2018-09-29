@@ -1,0 +1,140 @@
+{
+  "type": "element",
+  "name": "slot-configuration",
+  "attributes": {
+    "slot-id": "slot-01",
+    "context": "category",
+    "context-id": "man-suit-jackets",
+    "configuration-id": "suit jackets - hero - ss18",
+    "assigned-to-site": "true"
+  },
+  "elements": [
+    {
+      "type": "element",
+      "name": "template",
+      "elements": [
+        {
+          "type": "text",
+          "text": "slots/content/contentassetbody.isml"
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "enabled-flag",
+      "elements": [
+        {
+          "type": "text",
+          "text": "true"
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "schedule",
+      "elements": [
+        {
+          "type": "element",
+          "name": "start-date",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2018-02-07T08:00:00.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "content",
+      "elements": [
+        {
+          "type": "element",
+          "name": "content-assets",
+          "elements": [
+            {
+              "type": "element",
+              "name": "content-asset",
+              "attributes": {
+                "content-id": "suit-guide-ss18"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "custom-attributes",
+      "elements": [
+        {
+          "type": "element",
+          "name": "custom-attribute",
+          "attributes": {
+            "attribute-id": "heading-sticky"
+          },
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "custom-attribute",
+          "attributes": {
+            "attribute-id": "isExcludeTranslate"
+          },
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "custom-attribute",
+          "attributes": {
+            "attribute-id": "widget-height"
+          },
+          "elements": [
+            {
+              "type": "text",
+              "text": "75vw"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "custom-attribute",
+          "attributes": {
+            "attribute-id": "widget-id"
+          },
+          "elements": [
+            {
+              "type": "text",
+              "text": "suit-jackets"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "custom-attribute",
+          "attributes": {
+            "attribute-id": "widget-style"
+          },
+          "elements": [
+            {
+              "type": "text",
+              "text": "1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "name": "xml_slot_parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parses xml to json and filters files based on key pair values",
   "keywords": ["XML", "Filter", "By Key"],
   "main": "dist/index.js",
