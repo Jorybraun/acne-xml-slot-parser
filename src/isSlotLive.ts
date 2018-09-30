@@ -1,7 +1,8 @@
-import {Slot} from "../dist/interfaces/Slot";
+import {Slot} from './interfaces/Slot';
+import {Element} from 'xml-js';
 
 export const isSlotAlive = (slot: Slot): boolean => {
-    const schedule = slot.elements!.find((element) => element.name === 'schedule');
+    const schedule = slot.elements!.find((element: Element) => element.name === 'schedule');
     let startDate: boolean | Date = false;
     let endDate: boolean | Date = false;
 

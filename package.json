@@ -1,6 +1,6 @@
 {
   "name": "xml_slot_parser",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Parses xml to json and filters files based on key pair values",
   "keywords": ["XML", "Filter", "By Key"],
   "main": "dist/index.js",
@@ -8,7 +8,8 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "prepare": "npm run build",
+    "clean": "rm -rf dist/*",
+    "prepare": "npm run clean && npm run build",
     "prepublishOnly": "npm test"
   },
   "author": "Jory Braun",
