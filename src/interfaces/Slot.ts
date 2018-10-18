@@ -11,3 +11,8 @@ interface SlotAttributes extends Attributes {
 export interface Slot extends Element, ElementCompact {
     attributes?: SlotAttributes
 }
+
+export interface FilteredPayload {
+    keep: Slot,
+    remove: Slot
+}

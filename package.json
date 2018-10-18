@@ -2,7 +2,11 @@
   "name": "xml_slot_parser",
   "version": "1.0.3",
   "description": "Parses xml to json and filters files based on key pair values",
-  "keywords": ["XML", "Filter", "By Key"],
+  "keywords": [
+    "XML",
+    "Filter",
+    "By Key"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
