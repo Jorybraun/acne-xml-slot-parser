@@ -1,8 +1,16 @@
 
-export const recursiveSearch = (obj: { [key: string]: any }, key: string, value: any, cb: (obj: {}, value: any) => boolean): boolean => {
+export const recursiveSearch = (obj: { [key: string]: any }, key: string, value: any, cb?: (test: any, against: any) => boolean): boolean => {
     let found = false;
-    // check the value again a callback to make function more versatile
-    if (cb(obj[key], value)) { return true }
+    // check the value through callback to make function more versatile
+    const test = obj[key];
+    // check if value is undefined
+    if (test) {
+        if (cb) {
+            if (cb(test, value)) { return true }
+        } else {
+            if (test === value) { return true }
+        }
+    }
 
     for (const x in obj) {
         let result = false;

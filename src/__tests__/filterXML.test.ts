@@ -35,14 +35,38 @@ describe('recursiveSearch', () => {
         expect(recursiveSearch(testObject, 'robin', 'robin')).toBe(true);
     });
 
-    it('should object nested in array', () => {
+    it ('accepts a callback and filters based on callback', () => {
+        const testObject = {
+            batman: {
+                robin: [ { '$': { joker: 'joker' }} ],
+                soup: 'warm'
+            },
+            'random-variable': {
+                'content-id': 'acne_se_shop--customer-service'
+            }
+        };
+
+        expect(recursiveSearch(testObject, 'content-id', 'acne_se', (test, value) => {
+            return test.includes('acne_jp');
+        })).toBe(false);
+
+        expect(recursiveSearch(testObject, 'content-id', 'acne_jp', (test, value) => {
+            return test.includes(value);
+        })).toBe(false);
+
+        expect(recursiveSearch(testObject, 'content-id', 'acne_se', (test, value) => {
+            return test.includes(value);
+        })).toBe(true);
+    });
+
+    it ('should object nested in array', () => {
         const testObject = {
             batman: {
                 robin: [ { '$': { joker: 'joker' }} ],
                 soup: 'warm'
             }
         };
-
+        expect(recursiveSearch(testObject, 'nothere', 'false')).toBe(false);
         expect(recursiveSearch(testObject, 'soup', 'warm')).toBe(true);
         expect(recursiveSearch(testObject, 'joker', 'joker')).toBe(true);
     });
