@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`configFactory should take in paramaters and return a config 1`] = `
+Config {
+  "inputPath": "./file.xml",
+  "keepAlive": true,
+  "outputPath": Object {
+    "keepPath": "./file",
+    "removePath": "./remove",
+  },
+  "toKeep": Array [
+    Object {
+      "bob": "archer",
+    },
+  ],
+  "toRemove": Array [
+    Object {
+      "bob": "archer",
+    },
+  ],
+}
+`;

@@ -19,6 +19,7 @@
   "author": "Jory Braun",
   "license": "ISC",
   "dependencies": {
+    "jsonfile": "^5.0.0",
     "xml-js": "^1.6.8"
   },
   "devDependencies": {
