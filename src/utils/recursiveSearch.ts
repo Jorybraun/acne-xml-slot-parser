@@ -1,12 +1,11 @@
-import {Slot} from "./interfaces/Slot";
-import {CheckSlot} from "./checkContentAssetForSiteSpecific";
+import {Slot, CheckSlot} from "../interfaces/Slot";
 
 export const recursiveSearch = (slot: { [key: string]: any },
                                 cb: (slot: Slot) => CheckSlot<boolean> | boolean) => {
     let found = false;
 
     if (cb(slot)) {
-        return true
+        return true;
     }
 
     for (const x in slot) {
@@ -23,5 +22,5 @@ export const recursiveSearch = (slot: { [key: string]: any },
         }
     }
 
-    return found
+    return found;
 };

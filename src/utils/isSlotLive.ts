@@ -1,4 +1,4 @@
-import {Slot} from './interfaces/Slot';
+import {Slot} from '../interfaces/Slot';
 import {Element} from 'xml-js';
 
 export const isSlotAlive = (slot: Slot): boolean => {

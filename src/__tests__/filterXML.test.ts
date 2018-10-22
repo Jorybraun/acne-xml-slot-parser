@@ -2,12 +2,12 @@ import {Slot} from "../interfaces/Slot";
 import {recursiveSearch, convertToXML, exportXMLToFile, filterXML, isSlotAlive} from "../";
 import {
     curriedCheckForContentId,
-} from "../checkContentAssetForSiteSpecific";
+} from "../utils/checkContentAssetForSiteSpecific";
 
 describe('filterXML', () => {
 
     it('should return json', () => {
-        const filtered = filterXML(`${__dirname}/home.xml`, (slot: Slot) => {
+        const filtered = filterXML(`${__dirname}/testData/home.xml`, (slot: Slot) => {
             return false;
         });
 
@@ -16,7 +16,7 @@ describe('filterXML', () => {
     });
 
     it('should filter results based upon callback', () => {
-        const filtered = filterXML(`${__dirname}/home.xml`, (slot: Slot) => {
+        const filtered = filterXML(`${__dirname}/testData/home.xml`, (slot: Slot) => {
             return slot.attributes!['slot-id'] === 'slot-15';
         });
 
@@ -87,7 +87,7 @@ describe('recursiveSearch', () => {
 
 describe('integration of filterXML with recursiveSearch',  () => {
     it('should return correct slots', () => {
-        const filtered = filterXML(`${__dirname}/home.xml`, (slot) => recursiveSearch(slot, (test) => {
+        const filtered = filterXML(`${__dirname}/testData/home.xml`, (slot) => recursiveSearch(slot, (test) => {
             return test['slot-id'] === 'slot-15'
         }));
 
@@ -99,7 +99,7 @@ describe('integration of filterXML with recursiveSearch',  () => {
 
 describe('convertToXML', () => {
     it('should be xml', () => {
-        const filtered = filterXML(`${__dirname}/home.xml`, (slot) => recursiveSearch(slot, (slot) => {
+        const filtered = filterXML(`${__dirname}/testData/home.xml`, (slot) => recursiveSearch(slot, (slot) => {
             return slot['slot-id'] === 'slot-15'
         }));
         expect(convertToXML(filtered.keep)).toMatchSnapshot();
@@ -110,10 +110,10 @@ describe('exportXMLtoFIle', () => {
     const fs = require('fs');
 
     it('should export xml to file', () => {
-        const testPath = `${__dirname}/slots.xml`;
+        const testPath = `${__dirname}/testData/slots.xml`;
         const testString = 'this is a test';
         exportXMLToFile(testPath, testString);
-        const file = fs.readFileSync(`${__dirname}/slots.xml`, 'utf-8');
+        const file = fs.readFileSync(testPath, 'utf-8');
         expect(file).toBe(testString);
         fs.unlinkSync(testPath);
     })
@@ -121,7 +121,7 @@ describe('exportXMLtoFIle', () => {
 
 describe ('checkContentAssetsForSiteSpecific', () => {
     it('should check content Slot for acne_se', () => {
-        const filtered = filterXML(`${__dirname}/home.xml`, (slot: Slot) => {
+        const filtered = filterXML(`${__dirname}/testData/home.xml`, (slot: Slot) => {
             return recursiveSearch(slot, curriedCheckForContentId('acne_se'))
         });
         expect(filtered.keep.elements![0].elements).toHaveLength(5)
@@ -166,7 +166,7 @@ describe ('isSlotAlive', () => {
     });
 
     it ('should filter all the dead slots in coordination with filterXML', () => {
-        const filtered = filterXML(`${__dirname}/home.xml`, (slot: Slot) => {
+        const filtered = filterXML(`${__dirname}/testData/home.xml`, (slot: Slot) => {
             const hasKey = recursiveSearch(slot, (test) => {
                 return test['slot-id'] === 'slot-15';
             });

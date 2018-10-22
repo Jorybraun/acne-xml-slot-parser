@@ -16,3 +16,5 @@ export interface FilteredPayload {
     keep: Slot,
     remove: Slot
 }
+
+export type CheckSlot<T> = (slot: Slot, ...args: (any)[]) => T

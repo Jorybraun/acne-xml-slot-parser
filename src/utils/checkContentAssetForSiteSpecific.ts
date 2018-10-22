@@ -1,6 +1,4 @@
-import {Slot} from "./interfaces/Slot";
-
-export type CheckSlot<T> = (slot: Slot, ...args: (any)[]) => T
+import {CheckSlot, Slot} from "../interfaces/Slot";
 
 export const checkForContentId: CheckSlot<boolean> = (slot: Slot, value: string): boolean => {
     if (slot.name === 'content-asset'
@@ -12,8 +10,8 @@ export const checkForContentId: CheckSlot<boolean> = (slot: Slot, value: string)
             return contentId.includes(value)
         }
     }
-    return false
-}
+    return false;
+};
 
 export const curySlots = (fn: CheckSlot<boolean>) => (...args: (any)[]) => (slot: Slot) => fn(slot, ...args);
 

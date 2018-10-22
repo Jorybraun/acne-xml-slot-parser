@@ -1,4 +1,4 @@
-import { createConfig, configFactory, Config } from "../configFactory";
+import { createConfig, configFactory, Config } from "../utils/configFactory";
 import * as fs from 'fs';
 
 const testConfig = {
@@ -13,34 +13,38 @@ describe('configFactory', () => {
 
     it('should take in paramaters and return a config', () => {
         const config = configFactory(
-            Config,
-            [{'bob': 'archer'}],
-            [{'bob': 'archer'}],
-            true,
-            './file.xml',
-            {
-                keepPath: './file',
-                removePath: './remove'
+            Config, {
+                toRemove: [{ key: 'bob',  value: 'archer'}],
+                toKeep: [{ key: 'bob', value: 'archer'}],
+                siteSpecificKey: 'acne_se',
+                keepAlive: true,
+                inputPath: './file.xml',
+                outputPath: {
+                    keepPath: './file',
+                    removePath: './remove'
+                }
             }
         );
         expect(config).toMatchSnapshot()
     });
 
     it('should create a config file', () => {
-        createConfig(
-            [{'bob': 'archer'}],
-            [{'bob': 'archer'}],
-            true,
-            './file.xml',
-            {
-                keepPath: './file',
-                removePath: './remove'
-            }
+        createConfig( {
+                toRemove: [{ key: 'bob',  value: 'archer'}],
+                toKeep: [{ key: 'bob', value: 'archer'}],
+                siteSpecificKey: 'acne_se',
+                keepAlive: true,
+                inputPath: './file.xml',
+                outputPath: {
+                    keepPath: './file',
+                    removePath: './remove'
+                }
+            }, './example.config.json'
         )
         .then(() => {
-            const config = JSON.parse(fs.readFileSync('./config.json', 'utf-8'));
+            const config = JSON.parse(fs.readFileSync('./example.config.json', 'utf-8'));
             expect(config).toMatchSnapshot();
-            fs.unlinkSync('./config.json');
+            fs.unlinkSync('./example.config.json');
         })
     });
 })
