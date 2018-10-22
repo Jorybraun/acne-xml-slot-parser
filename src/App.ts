@@ -28,6 +28,10 @@ export class App {
         return this.state.config;
     }
 
+    public get filteredPayload (): FilteredPayload {
+        return this.state.filteredPayload;
+    }
+
     private static checkForConfig = (path: string): boolean  => {
         return fs.existsSync(path);
     };
@@ -69,7 +73,6 @@ export class App {
     public filterXML = (config: ConfigInterface = this.state.config): FilteredPayload => {
         // function uses partial application to store value in clojure
         const siteSpecificCheck = curriedCheckForContentId(config.siteSpecificKey);
-
         this.state.filteredPayload = filterXML(config.inputPath, (slot): boolean => {
             // by default we should keep the slot
             let remove = false;

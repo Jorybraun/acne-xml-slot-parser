@@ -1,14 +1,6 @@
 import { createConfig, configFactory, Config } from "../utils/configFactory";
 import * as fs from 'fs';
 
-const testConfig = {
-    toKeep: [ { bob: 'archer' } ],
-    toRemove: [ { bob: 'archer' } ],
-    keepAlive: true,
-    inputPath: './file.xml',
-    outputPath: { keepPath: './file', removePath: './remove' }
-}
-
 describe('configFactory', () => {
 
     it('should take in paramaters and return a config', () => {
