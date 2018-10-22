@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as convert from 'xml-js';
-import {FilteredPayload, Slot} from './interfaces/Slot';
+import {FilteredPayload, Slot} from '../interfaces/Slot';
 
 const deepClone = (obj: {}) => {
     return JSON.parse(JSON.stringify(obj))

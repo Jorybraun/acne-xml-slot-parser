@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slot-configurations xmlns="http://www.demandware.com/xml/impex/slot/2008-09-08">
+    <slot-configuration slot-id="slot-15" context="category" context-id="bla-konst-man-projects" configuration-id="BK m - projects - ss17" assigned-to-site="true">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2017-08-31T07:00:00.000Z</start-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id="bk-projects--ss17"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id="heading-sticky">false</custom-attribute>
+            <custom-attribute attribute-id="isExcludeTranslate">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id="slot-15" context="category" context-id="bla-konst-woman-projects" configuration-id="BK w - projects - ss17" assigned-to-site="true">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2017-08-31T07:00:00.000Z</start-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id="bk-projects--ss17"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id="heading-sticky">false</custom-attribute>
+            <custom-attribute attribute-id="isExcludeTranslate">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id="slot-15" context="category" context-id="man-eyewear" configuration-id="Eyewear M - section 8 - w2" assigned-to-site="true">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-01-24T08:00:00.000Z</start-date>
+            <end-date>2018-03-22T08:00:00.000Z</end-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id="eyewear-w2-lou-m"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id="heading-sticky">false</custom-attribute>
+            <custom-attribute attribute-id="isExcludeTranslate">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id="slot-15" context="category" context-id="woman-eyewear" configuration-id="Eyewear W - section 8 - w2" assigned-to-site="true">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-01-24T08:00:00.000Z</start-date>
+            <end-date>2018-03-22T08:00:00.000Z</end-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id="eyewear-w2-lou-w"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id="heading-sticky">false</custom-attribute>
+            <custom-attribute attribute-id="isExcludeTranslate">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id="slot-15" context="category" context-id="bla-konst" configuration-id="Featured - BK - gum" assigned-to-site="true">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-03-15T08:00:00.000Z</start-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id="bk-chewing-gums"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id="heading-sticky">false</custom-attribute>
+            <custom-attribute attribute-id="isExcludeTranslate">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id="slot-15" context="category" context-id="man-small-leather-goods" configuration-id="SLG M - section 8 - personalisation" assigned-to-site="true">
+        <template>slots/content/god-widget.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-08-30T08:00:00.000Z</start-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id="slg-personalisation-1"/>
+                <content-asset content-id="slg-personalisation-2"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id="heading-sticky">false</custom-attribute>
+            <custom-attribute attribute-id="isExcludeTranslate">false</custom-attribute>
+            <custom-attribute attribute-id="link-url">$url('Search-Show', 'cgid', 'woman-personalisation-slg')$</custom-attribute>
+            <custom-attribute attribute-id="widget-height">75vw</custom-attribute>
+            <custom-attribute attribute-id="widget-style">3</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id="slot-15" context="category" context-id="woman-small-leather-goods" configuration-id="SLG W - section 8 - personalisation" assigned-to-site="true">
+        <template>slots/content/god-widget.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-08-30T08:00:00.000Z</start-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id="slg-personalisation-1"/>
+                <content-asset content-id="slg-personalisation-2"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id="heading-sticky">false</custom-attribute>
+            <custom-attribute attribute-id="isExcludeTranslate">false</custom-attribute>
+            <custom-attribute attribute-id="link-url">$url('Search-Show', 'cgid', 'woman-personalisation-slg')$</custom-attribute>
+            <custom-attribute attribute-id="widget-height">75vw</custom-attribute>
+            <custom-attribute attribute-id="widget-style">3</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id="slot-15" context="category" context-id="bla-konst-man-ready-to-wear" configuration-id="bla konst - SS18 - M - gums" assigned-to-site="true">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-03-15T08:00:00.000Z</start-date>
+            <end-date>2018-03-22T08:00:00.000Z</end-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id="bk-chewing-gums"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id="heading-sticky">false</custom-attribute>
+            <custom-attribute attribute-id="isExcludeTranslate">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id="slot-15" context="category" context-id="bla-konst-woman-ready-to-wear" configuration-id="bla konst - SS18 - W - gums" assigned-to-site="true">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-03-15T08:00:00.000Z</start-date>
+            <end-date>2018-03-22T08:00:00.000Z</end-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id="bk-chewing-gums"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id="heading-sticky">false</custom-attribute>
+            <custom-attribute attribute-id="isExcludeTranslate">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id="slot-15" context="category" context-id="bla-konst-man-jeans" configuration-id="jeans - M - slot 15 - b" assigned-to-site="true">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-08-08T08:00:00.000Z</start-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id="jeans-m-land-products"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id="heading-sticky">false</custom-attribute>
+            <custom-attribute attribute-id="isExcludeTranslate">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id="slot-15" context="category" context-id="man-jeans" configuration-id="jeans - M - slot 15 - b" assigned-to-site="true">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-08-08T08:00:00.000Z</start-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id="jeans-m-land-products"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id="heading-sticky">false</custom-attribute>
+            <custom-attribute attribute-id="isExcludeTranslate">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id="slot-15" context="category" context-id="woman-jeans" configuration-id="jeans - W - slot 15" assigned-to-site="true">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-04-26T07:00:00.000Z</start-date>
+            <end-date>2018-08-01T08:00:00.000Z</end-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id="jeans-w-south-products"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id="heading-sticky">false</custom-attribute>
+            <custom-attribute attribute-id="isExcludeTranslate">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id="slot-15" context="category" context-id="bla-konst-woman-jeans" configuration-id="jeans - W - slot 15" assigned-to-site="true">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-04-26T07:00:00.000Z</start-date>
+            <end-date>2018-08-01T08:00:00.000Z</end-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id="jeans-w-south-products"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id="heading-sticky">false</custom-attribute>
+            <custom-attribute attribute-id="isExcludeTranslate">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id="slot-15" context="category" context-id="bla-konst-woman-jeans" configuration-id="jeans - W - slot 15 - b" assigned-to-site="true">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-08-08T08:00:00.000Z</start-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id="jeans-w-log-products"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id="heading-sticky">false</custom-attribute>
+            <custom-attribute attribute-id="isExcludeTranslate">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+    <slot-configuration slot-id="slot-15" context="category" context-id="woman-jeans" configuration-id="jeans - W - slot 15 - b" assigned-to-site="true">
+        <template>slots/content/contentassetbody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <schedule>
+            <start-date>2018-08-08T08:00:00.000Z</start-date>
+        </schedule>
+        <content>
+            <content-assets>
+                <content-asset content-id="jeans-w-log-products"/>
+            </content-assets>
+        </content>
+        <custom-attributes>
+            <custom-attribute attribute-id="heading-sticky">false</custom-attribute>
+            <custom-attribute attribute-id="isExcludeTranslate">false</custom-attribute>
+        </custom-attributes>
+    </slot-configuration>
+</slot-configurations>
