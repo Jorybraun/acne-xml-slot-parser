@@ -1,6 +1,6 @@
 {
   "name": "xml_slot_parser",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Parses xml to json and filters files based on key pair values",
   "keywords": [
     "XML",
