@@ -11,3 +11,10 @@ interface SlotAttributes extends Attributes {
 export interface Slot extends Element, ElementCompact {
     attributes?: SlotAttributes
 }
+
+export interface FilteredPayload {
+    keep: Slot,
+    remove: Slot
+}
+
+export type CheckSlot<T> = (slot: Slot, ...args: (any)[]) => T

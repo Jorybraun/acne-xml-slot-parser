@@ -1,8 +1,12 @@
 {
   "name": "xml_slot_parser",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Parses xml to json and filters files based on key pair values",
-  "keywords": ["XML", "Filter", "By Key"],
+  "keywords": [
+    "XML",
+    "Filter",
+    "By Key"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -15,6 +19,7 @@
   "author": "Jory Braun",
   "license": "ISC",
   "dependencies": {
+    "jsonfile": "^5.0.0",
     "xml-js": "^1.6.8"
   },
   "devDependencies": {
