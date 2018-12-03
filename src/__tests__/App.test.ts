@@ -124,12 +124,12 @@ describe('App', () => {
                     keepPath: './keep.xml',
                     removePath: './remove.xml'
                 }
-            }
+            };
 
             const app = new App(config);
             const filtered = app.filterXML();
             expect(filtered.remove.elements![0].elements).toHaveLength(15)
-        })
+        });
 
         it('should only keep slot-15', () => {
             const config = {
@@ -142,7 +142,7 @@ describe('App', () => {
                         keepPath: './keep.xml',
                         removePath: './remove.xml'
                     }
-                }
+                };
 
             const app = new App(config);
             const filtered = app.filterXML();
@@ -181,7 +181,7 @@ describe('App', () => {
                     keepPath: './keep.xml',
                     removePath: './remove.xml'
                 }
-            }
+            };
 
             const app = new App(config);
             const filtered = app.filterXML();
@@ -246,7 +246,7 @@ describe('App', () => {
                     keepPath: './keep.xml',
                     removePath: './remove.xml'
                 }
-            }
+            };
 
             const app = new App(config);
             const filtered = app.filterXML();

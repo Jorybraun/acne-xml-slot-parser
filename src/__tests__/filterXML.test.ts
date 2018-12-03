@@ -129,20 +129,131 @@ describe ('checkContentAssetsForSiteSpecific', () => {
 });
 
 describe ('isSlotAlive', () => {
-    it ('should return if slot is currently alive it should return true', () => {
+    it ('if slot is currently alive it should return true', () => {
         const slot1 = {
             elements: [
-                { name: 'schedule', elements: [ { name: 'start-date', elements: [  { text: '2018-08-08T08:00:00.000Z' } ] }, { name: 'end-date', elements: [{ text: '2018-11-09T08:00:00.000Z' }] } ] }
+                {
+                    name: 'schedule',
+                    elements: [
+                        {
+                            name: 'start-date', elements: [
+                                { text: '2018-08-08T08:00:00.000Z' }
+                            ]
+                        }, {
+                            name: 'end-date',
+                            elements: [
+                                { text: '2019-11-09T08:00:00.000Z' }
+                            ]
+                        }
+                    ]
+                }
             ]
         };
 
         const slot2 = {
             elements: [
-                { name: 'schedule', elements: [ { name: 'start-date', elements: [  { text: '2018-08-08T08:00:00.000Z' } ] } ] }
+                {
+                    name: 'schedule',
+                    elements: [
+                        { name: 'start-date', elements: [  { text: '2018-08-08T08:00:00.000Z' } ]}
+                    ]
+                }
             ]
         };
         expect (isSlotAlive(slot1)).toBe(true);
         expect (isSlotAlive(slot2)).toBe(true);
+    });
+
+    it ('should pass if the slot is active but has no end date', () => {
+        const slot1 = {
+            elements: [
+                {
+                    type: 'element',
+                    name: 'schedule',
+                    elements: [
+                        { name: 'start-date', elements: [  { text: '2018-08-08T08:00:00.000Z' } ]}
+                    ]
+                },
+                {
+                    type: 'element',
+                    name: 'enabled-flag',
+                    elements: [
+                        {
+                            type: 'text',
+                            text: 'true'
+                        }
+                    ]
+                }
+            ]
+        };
+
+        const slot2 = {
+            elements: [
+                {
+                    type: 'element',
+                    name: 'schedule',
+                    elements: [
+                        { name: 'start-date', elements: [  { text: '2018-08-08T08:00:00.000Z' } ]}
+                    ]
+                },
+                {
+                    type: 'element',
+                    name: 'enabled-flag',
+                    elements: [
+                        {
+                            type: 'text',
+                            text: 'false'
+                        }
+                    ]
+                }
+            ]
+        };
+
+        expect (isSlotAlive(slot1)).toBe(true);
+        expect (isSlotAlive(slot2)).toBe(false);
+    });
+
+    it ('should pass if the slot is active but has no end schedule', () => {
+        const slot1 = {
+            elements: [
+                {
+                    name: 'schedule',
+                    elements: []
+                },
+                {
+                    type: 'element',
+                    name: 'enabled-flag',
+                    elements: [
+                        {
+                            type: 'text',
+                            text: 'true'
+                        }
+                    ]
+                }
+            ]
+        };
+
+        const slot2 = {
+            elements: [
+                {
+                    name: 'schedule',
+                    elements: []
+                },
+                {
+                    type: 'element',
+                    name: 'enabled-flag',
+                    elements: [
+                        {
+                            type: 'text',
+                            text: 'false'
+                        }
+                    ]
+                }
+            ]
+        };
+
+        expect (isSlotAlive(slot1)).toBe(true)
+        expect (isSlotAlive(slot2)).toBe(false)
     });
 
     it ('should fail if the slot is expired', () => {
